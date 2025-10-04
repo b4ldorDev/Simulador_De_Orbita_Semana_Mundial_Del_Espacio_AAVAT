@@ -246,7 +246,7 @@ const OrbitalSimulator = () => {
             🚀 Simulador de Disparo Orbital
           </h1>
           <p className="text-xl text-purple-200">
-            Descubre cómo funcionan las órbitas: la ciencia de caerse sin tocar el suelo
+            ¿Cómo funcionan las órbitas? 
           </p>
         </div>
 
@@ -255,18 +255,18 @@ const OrbitalSimulator = () => {
             <div className="flex items-start gap-3">
               <Info className="text-blue-300 mt-1 flex-shrink-0" size={24} />
               <div className="text-blue-100">
-                <p className="font-semibold mb-2">¿ Cómo funciona:</p>
+                <p className="font-semibold mb-2">¿ Cómo funciona?:</p>
                 <ul className="text-sm space-y-1">
-                  <li>• Ajusta la <strong>velocidad</strong> y el <strong>ángulo</strong> del disparo</li>
-                  <li>• Velocidad orbital ideal: ~7.66 km/s (similar a la ISS)</li>
-                  <li>• Activa la atmósfera para ver cómo el aire frena la bala</li>
-                  <li>• ¡Intenta conseguir una órbita perfecta! 🎯</li>
+                  <li>1.- Ajusta la <strong>velocidad</strong> y cambio el <strong>ángulo</strong></li>
+                  <li>2.- TIP : La Velocidad orbital ideal: ~7.66 km/s (similar a la ISS)</li>
+                  <li>3.- Activa la atmósfera para ver cómo el aire frena la bala</li>
+                  <li>4.- Intenta conseguir una órbita perfecta!!</li>
                 </ul>
                 <button 
                   onClick={() => setShowInfo(false)}
                   className="mt-3 text-xs text-blue-300 hover:text-blue-100 underline"
                 >
-                  Cerrar ayuda
+                  Cerrar 
                 </button>
               </div>
             </div>
@@ -341,7 +341,7 @@ const OrbitalSimulator = () => {
                     className="w-5 h-5 accent-purple-500"
                   />
                   <label htmlFor="atmosphere" className="text-white font-medium">
-                    Activar atmósfera 🌫️
+                    Activar atmósfera 
                   </label>
                 </div>
 
@@ -380,19 +380,15 @@ const OrbitalSimulator = () => {
         </div>
 
         <div className="mt-6 bg-purple-900/30 rounded-xl p-6 backdrop-blur border border-purple-500/30">
-          <h3 className="text-xl font-bold text-white mb-3">🎯 Conceptos clave</h3>
+          <h3 className="text-xl font-bold text-white mb-3">-Conceptos clave</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-purple-100">
             <div>
               <p className="font-semibold text-purple-300">Caída lenta:</p>
-              <p className="text-sm">La bala describe una parábola y cae al suelo. Sin velocidad suficiente no hay órbita.</p>
+              <p className="text-sm">La bala describe una parábola y cae al suelo, ten en cuenta que sin la velocidad suficiente no hay órbita.</p>
             </div>
             <div>
               <p className="font-semibold text-green-300">Velocidad orbital:</p>
-              <p className="text-sm">La bala cae al mismo ritmo que la superficie se aleja. ¡Órbita conseguida!</p>
-            </div>
-            <div>
-              <p className="font-semibold text-blue-300">Velocidad de escape:</p>
-              <p className="text-sm">Tan rápido que la gravedad no puede retenerla. La bala escapa al espacio.</p>
+              <p className="text-sm">La bala cae al mismo ritmo que la superficie se aleja </p>
             </div>
           </div>
         </div>
