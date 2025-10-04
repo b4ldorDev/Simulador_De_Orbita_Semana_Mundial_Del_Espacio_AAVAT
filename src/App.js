@@ -18,7 +18,7 @@ const OrbitalSimulator = () => {
   const CANNON_HEIGHT = 50;
   const GRAVITY = 0.15;
   const AIR_RESISTANCE = 0.98;
-  const ORBITAL_VELOCITY = 7.66;
+  //const ORBITAL_VELOCITY = 7.66;
 
   useEffect(() => {
     const canvas = canvasRef.current;
